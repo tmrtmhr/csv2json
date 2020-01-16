@@ -8,12 +8,12 @@ go install github.com/tmrtmhr/csv2json
 # Usage
 
 ```
-csv2json -delimiter="\t" < sample.tsv
+csv2json < sample.tsv
 ```
 
 # Sample Input/Output
 
-* Input
+## Input
 
 ```
 col1	col2	col3
@@ -23,7 +23,13 @@ col1	col2	col3
 9	10	11
 ```
 
-* Output
+## Output(JSON)
+
+Command
+
+```
+csv2json < sample.csv
+```
 
 ```
 [
@@ -45,7 +51,7 @@ col1	col2	col3
 ]
 ```
 
-* Output JSON Seq
+## Output(JSON Seq)
 
 Command
 
